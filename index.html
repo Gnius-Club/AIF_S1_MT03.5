@@ -1,24 +1,286 @@
-<!-- 
-HTML Template for Missions, delete and replace with mission HTML
--->
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
-  <title>Gnius Club</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playbook Sesión 3.5: Desafío de Croquizado Complejo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-
 <body>
-  <h1>
-    Playbook HTML Placeholder Template
-  </h1>
-  <p>
-    Replace with actual playbook code.
-  </p>
-  <script src="script.js"></script>
-</body>
 
+    <header>
+        <h1><span class="book-icon">📋</span> <strong>Playbook Sesión 3.5: Desafío de Croquizado Complejo</strong></h1>
+        <div class="header-widgets">
+            <div class="timer-container">
+                <span id="timer">⏱️ 00:00</span>
+                <button id="startStop">Start</button>
+                <button id="reset">Reset</button>
+            </div>
+            <div class="theme-toggle">
+                <i class="fas fa-sun"></i>
+                <label class="switch">
+                    <input type="checkbox" id="theme-toggle-input">
+                    <span class="slider round"></span>
+                </label>
+                <i class="fas fa-moon"></i>
+            </div>
+        </div>
+    </header>
+
+    <div class="main-container">
+        <aside class="activity-list">
+            <h2>Actividades</h2>
+            <ul>
+                <li><a href="#activity-0">📝</a></li>
+                <li><a href="#activity-1">1</a></li>
+                <li><a href="#activity-2">2</a></li>
+                <li><a href="#activity-3">3</a></li>
+                <li><a href="#activity-4">4</a></li>
+                <li><a href="#activity-5">5</a></li>
+            </ul>
+
+            <div class="sidebar-info">
+                <p>💡 Cada actividad está cuidadosamente diseñada para involucrar a los estudiantes.</p>
+                <p>⏱️ Se proporcionan estimaciones de tiempo para cada actividad para ayudarle a mantener el rumbo.</p>
+            </div>
+        </aside>
+
+        <main class="content">
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+
+            <button id="toggle-dialogues">Mostrar todos los diálogos</button>
+
+            <!-- SECCIÓN "DE UN VISTAZO" (ANTES ACTIVITY-0) -->
+            <div class="activity-card" id="activity-0">
+                <h2><span class="book-icon">📝</span> De un Vistazo: Sesión Gnius</h2>
+                <p class="overview-subtitle">Resumen rápido de objetivos, materiales y preparación para el facilitador.</p>
+                <div class="overview-table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th style="width: 50%;">Objetivos, Tácticas y Entregable</th>
+                                <th style="width: 50%;">Materiales Específicos y Preparación Previa</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <strong>Objetivos:</strong>
+                                    <ul>
+                                        <li>Que los estudiantes profundicen su dominio del croquizado 2D robusto.</li>
+                                        <li>Que aprendan y apliquen herramientas avanzadas como 'Spline', 'Patrón' y 'Espejo'.</li>
+                                        <li>Que resuelvan un problema de croquizado de alta complejidad aplicando pensamiento estratégico (descomposición).</li>
+                                        <li>Que consoliden el uso de la metodología de consulta "Dupla Dinámica" para resolver problemas técnicos de forma autónoma.</li>
+                                    </ul>
+                                    <strong>Secuencia de Clase:</strong>
+                                    <ul>
+                                        <li><strong class="tactic-highlight">⚡Saludo Interactivo con IA:</strong> Activación y contextualización de la misión.</li>
+                                        <li><strong class="tactic-highlight">⚡"I Can Statement" + Desafío:</strong> Clarificación de objetivos y presentación del reto del día.</li>
+                                        <li><strong class="tactic-highlight">⚡AI GYM:</strong> Diálogo estratégico con Xolo para la conceptualización.</li>
+                                        <li><strong class="tactic-highlight">⚡Brain Spark:</strong> Ejecución técnica y práctica aumentada por la Dupla Dinámica.</li>
+                                        <li><strong class="tactic-highlight">⚡Gnius STORM:</strong> Showcase de prototipos, síntesis y reflexión.</li>
+                                    </ul>
+                                    <strong>Entregable Clave:</strong>
+                                    <ul>
+                                        <li>Un croquis 2D en Onshape, complejo y completamente definido (líneas negras), del logo 'TechBloom'.</li>
+                                        <li>El archivo debe guardarse como "Desafío Croquizado Complejo".</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <strong>Materiales Específicos:</strong>
+                                    <ul>
+                                        <li>Proyector o pantalla interactiva.</li>
+                                        <li>Conexión a internet estable.</li>
+                                        <li>Cuentas de Onshape para cada alumno.</li>
+                                        <li>Chat "Agente Gnius" (Xolo) activo y funcionando.</li>
+                                        <li>Presentación de diapositivas (Diapositivas 1-10).</li>
+                                    </ul>
+                                    <strong>Preparación Previa para ESTA Sesión:</strong>
+                                    <ol>
+                                        <li><strong>Revisión de Misión (Interna):</strong>
+                                            <ul>
+                                                <li>Verificar conexión a internet y el funcionamiento de Onshape y Xolo.</li>
+                                                <li>Tener la imagen del logo "TechBloom" lista para proyectar.</li>
+                                            </ul>
+                                        </li>
+                                        <li><strong>Familiarización:</strong> Revisar el concepto de "Práctica Deliberada" y las tres estrategias de descomposición: Simetría (Espejo), Repetición (Patrón) y Curvas Orgánicas (Spline).</li>
+                                        <li><strong>Preparación de Ejemplos:</strong> Tener una versión ya resuelta del croquis del logo en Onshape. Esto puede servir como referencia o para guiar a los estudiantes que se queden muy atascados.</li>
+                                    </ol>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!-- FIN DE LA SECCIÓN "DE UN VISTAZO" -->
+
+            <div class="activity-card" id="activity-1">
+                <h2>⚡ Actividad 1: Saludo de IA y Contexto ⏰ 3 minutos</h2>
+                <p>Establecer un tono profesional e introducir el desafío de la complejidad, más allá de la simple robustez.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Bienvenida y Contexto de la Misión ⏰ 1 minuto</h3>
+                            <p>(Proyectar Diapositiva 2) El facilitador introduce la sesión como un taller práctico intensivo enfocado en dominar las herramientas.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Saludos, directores. En la sesión anterior lograron la robustez, la base de todo diseño predecible. Hoy, nos enfrentamos a la complejidad. El mundo real demanda curvas orgánicas, simetría y repetición eficiente. Esta sesión es un taller intensivo, un desafío. El objetivo no es aprender un concepto nuevo, sino dominar su caja de herramientas para construir algo que antes parecía imposible.</p>
+                            </div>
+                        </div>
+                    </div>
+                      <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Activación de la IA ⏰ 2 minutos</h3>
+                            <p>El facilitador guía a los alumnos para que inicien su sesión de trabajo con Xolo.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Inicien su sesión con Xolo: 'Hola Xolo, listo para la Misión 3.5', junto con su nombre, perfil y gustos. Esperen su confirmación para comenzar el taller.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-2">
+                <h2>⚡ Actividad 2: "I Can Statement" y Presentación del Desafío ⏰ 7 minutos</h2>
+                <p>Presentar el desafío visual, las herramientas avanzadas a utilizar y el enfoque en la práctica deliberada.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Presentación del Desafío y las Herramientas ⏰ 4 minutos</h3>
+                            <p>(Proyectar Diapositiva 3) El facilitador presenta el desafío visual (el logo) y las herramientas avanzadas necesarias.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Ya saben crear croquis robustos con formas básicas. ¿Pero cómo diseñarían esto? (Muestra la imagen del logo). Las herramientas básicas no son eficientes aquí. Hoy, su desafío es abordar este croquis complejo, que requiere herramientas avanzadas como 'Spline' para curvas orgánicas, 'Patrón' para la repetición y 'Espejo' para la simetría. Esta no es una lección, es una práctica deliberada. Su éxito se mide por su capacidad para superar el desafío, no por la velocidad.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Declaración del "I Can Statement" ⏰ 3 minutos</h3>
+                            <p>(Proyectar Diapositiva 4) El facilitador presenta el objetivo de aprendizaje de la sesión.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">El objetivo de este taller es muy concreto. Al final, podrán decir: <strong>'Yo puedo utilizar herramientas de croquis avanzadas como spline, patrón y espejo, aplicando la metodología Dupla Dinámica para resolver un desafío de diseño complejo.'</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-3">
+                <h2>⚡ Actividad 3: A.I. GYM (Estrategias para la Complejidad) ⏰ 12 minutos</h2>
+                <p>Fase de diálogo individual con Xolo para aprender la estrategia de descomposición y cómo se mapea a las herramientas avanzadas.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: El Principio de Descomposición ⏰ 5 minutos</h3>
+                            <p>(Proyectar Diapositiva 5) Los estudiantes consultan a Xolo sobre su rol como meta-coach para resolver problemas complejos.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Vamos al A.I. GYM. Mi rol hoy es entrenarlos en cómo pensar ante un problema complejo. La primera regla es la descomposición. Consulten a Xolo ahora mismo: <strong>'Xolo, explícame la estrategia de descomposición para un diseño complejo y cómo se aplica a formas con simetría, repetición y curvas orgánicas.'</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Activando el Desafío ⏰ 7 minutos</h3>
+                            <p>(Proyectar Diapositiva 6) El facilitador verbaliza la aplicación de la estrategia al desafío concreto y da la señal de inicio.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Como Xolo les ha explicado, cada parte de un diseño complejo sugiere una herramienta: la simetría sugiere 'Espejo', la repetición sugiere 'Patrón', y las curvas suaves sugieren 'Spline'. Ahora, apliquen esa lógica. Su desafío es crear el croquis 2D completamente definido para el logo 'TechBloom'. Analícenlo, descompónganlo y ejecuten su estrategia. El protocolo de consulta ya lo dominan.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-4">
+                 <h2>⚡ Actividad 4: Brain Spark (El Desafío de Croquizado) ⏰ 18 minutos</h2>
+                <p>Fase de trabajo práctico intensivo. Los estudiantes aplican la descomposición y las herramientas avanzadas para resolver el desafío.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Planificación Estratégica y Ejecución ⏰ 18 minutos</h3>
+                            <p>(Proyectar Diapositiva 7) Los estudiantes analizan el logo, planifican su estrategia de operaciones y la ejecutan de forma autónoma.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Ahora, al Brain Spark. Tienen 18 minutos. Primero, analicen el logo e identifiquen las partes simétricas, repetidas y orgánicas. Dialoguen con Xolo para confirmar su 'receta' de operaciones. Luego, comiencen la ejecución técnica en Onshape. Consulten al AI Advisor para aprender el 'cómo' de cada herramienta avanzada (Mirror, Pattern, Spline). Apliquen dimensiones y restricciones sobre la marcha para asegurar un croquis final robusto y completamente definido. Manos a la obra.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-5">
+                <h2>⚡ Actividad 5: Gnius STORM (Cierre de Sesión) ⏰ 5 minutos</h2>
+                <p>Show & Tell técnico donde los estudiantes explican su estrategia de descomposición y el facilitador consolida el aprendizaje.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Think (Reflexión Individual) ⏰ 1 minuto</h3>
+                            <p>(Proyectar Diapositiva 8) El facilitador guía una reflexión individual sobre la estrategia utilizada.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">
+                                     Tiempo. Tómense un minuto para observar su trabajo y pensar: <strong>¿Cuál fue su 'receta' o estrategia de descomposición? ¿En qué orden aplicaron las herramientas de Espejo, Patrón y Spline?</strong>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Pair (Show & Tell Técnico) ⏰ 2 minutos</h3>
+                            <p>(Proyectar Diapositiva 9) Los estudiantes comparten su pantalla y explican su proceso a un compañero.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">
+                                    Ahora en parejas. Compartan sus pantallas. No solo muestren el resultado, expliquen su estrategia de descomposición. Por ejemplo: "Primero, hice esta línea de construcción para el 'Espejo'. Luego, definí este primer pétalo. Después, usé 'Patrón Circular'...".
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 3: Share (Síntesis y Cierre) ⏰ 2 minutos</h3>
+                            <p>(Proyectar Diapositiva 10) El facilitador recoge las estrategias y cierra la sesión con una reflexión sobre la ingeniería real.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">
+                                    Volvemos al grupo. Observen lo que han logrado. Han enfrentado un problema no trivial, lo descompusieron en sub-problemas y aplicaron la herramienta estratégica correcta para cada uno. Han actuado no como estudiantes, sino como ingenieros de diseño resolviendo un problema real. Esta capacidad de análisis y ejecución es la que les permitirá crear cualquier forma imaginable. Han superado la prueba. Están listos para el volumen.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
 </html>
